@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!--Heading-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VISITOR APP"
+        android:textSize="40dp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginBottom="20dp">
+
+    </TextView>
+
+    <!-- Add Visitor Button -->
+    <Button
+        android:id="@+id/btn_add_visitor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Visitor"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- View Visitor Button -->
+    <Button
+        android:id="@+id/btn_view_visitor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Visitors"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>
